@@ -1,0 +1,8 @@
+const words = 
+["DILIGENCE", 
+"EXPLOSIVE", 
+"FASCINATE",
+"ABJECTIVE",
+"ABSURDITY",
+"BACKSTAGE"
+];
