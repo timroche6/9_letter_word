@@ -144,7 +144,8 @@ h1 {
     font-size: 1rem;
     font-family: 'Press Start 2P', sans-serif;
     font-weight: lighter;
-    margin: auto;
+    margin-top: auto;
+    margin-bottom: 1rem;
 }
 
 #score {
@@ -175,6 +176,13 @@ h1 {
     font-size: 1rem;
     font-family: 'Press Start 2P', sans-serif;
     font-weight: lighter;    
+}
+
+#footer {
+    text-align: center;
+    font-size: 0.3rem;
+    font-family: 'Press Start 2P', sans-serif;
+    font-weight: lighter;
 }
 
 @media only screen and (max-width: 600px) {
