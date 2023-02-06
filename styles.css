@@ -179,12 +179,12 @@ h1 {
     margin: 1rem;    
 }
 
-#footer {
+/* #footer {
     text-align: center;
     font-size: 0.3rem;
     font-family: 'Press Start 2P', sans-serif;
     font-weight: lighter;
-}
+} */
 
 @media only screen and (max-width: 500px) {
     
