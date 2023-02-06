@@ -90,8 +90,9 @@ h1 {
     font-size: 1rem;
     font-family: 'Press Start 2P', sans-serif;
     font-weight: lighter;
-    -webkit-tap-highlight-color: transparent;
-    -webkit-appearance: none !important;
+    background-color: lightgray;
+    color: black;
+    border: black;
 }
 
 #guess-button:hover {
@@ -107,8 +108,9 @@ h1 {
     font-size: 1rem;
     font-family: 'Press Start 2P', sans-serif;
     font-weight: lighter;
-    -webkit-tap-highlight-color: transparent;
-    -webkit-appearance: none !important;
+    background-color: lightgray;
+    color: black;
+    border: black;
 }
 
 
@@ -125,23 +127,15 @@ h1 {
     font-size: 1rem;
     font-family: 'Press Start 2P', sans-serif;
     font-weight: lighter;
-    -webkit-tap-highlight-color: transparent;
-    -webkit-appearance: none !important;
+    background-color: lightgray;
+    color: black;
+    border: black;
 }
 
 #new-word-button:hover {
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
-}
-
-input,
-textarea,
-button,
-select,
-a {
-    -webkit-tap-highlight-color: transparent;
-    -webkit-appearance: none !important;
 }
 
 /* style the score container */
