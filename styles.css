@@ -91,6 +91,7 @@ h1 {
     font-family: 'Press Start 2P', sans-serif;
     font-weight: lighter;
     -webkit-tap-highlight-color: transparent;
+    -webkit-appearance: none !important;
 }
 
 #guess-button:hover {
@@ -107,6 +108,7 @@ h1 {
     font-family: 'Press Start 2P', sans-serif;
     font-weight: lighter;
     -webkit-tap-highlight-color: transparent;
+    -webkit-appearance: none !important;
 }
 
 
@@ -124,6 +126,7 @@ h1 {
     font-family: 'Press Start 2P', sans-serif;
     font-weight: lighter;
     -webkit-tap-highlight-color: transparent;
+    -webkit-appearance: none !important;
 }
 
 #new-word-button:hover {
@@ -138,6 +141,7 @@ button,
 select,
 a {
     -webkit-tap-highlight-color: transparent;
+    -webkit-appearance: none !important;
 }
 
 /* style the score container */
