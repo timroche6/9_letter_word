@@ -129,6 +129,14 @@ h1 {
     transform: scale(1.1);
 }
 
+input,
+textarea,
+button,
+select,
+a {
+    -webkit-tap-highlight-color: transparent;
+}
+
 /* style the score container */
 #score-container {
     text-align: center;
