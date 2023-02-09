@@ -82,6 +82,8 @@ newWordButton.addEventListener('click', function() {
 chooseWord();
 shuffleLetters();
 displayLetters();
+guessButton.disabled = false;
+clearButton.disabled = false;
 document.querySelector("#guess-input").value = "";
 document.querySelector("#message").textContent = "";
 letterElements.forEach(element => {
