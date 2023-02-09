@@ -41,7 +41,8 @@ guessInput.value += event.target.innerHTML;
 });
 
 // check if the player's guess is correct when guess button is clicked
-let guessButton = document.querySelector("#guess-button");
+const guessButton = document.querySelector("#guess-button");
+
 guessButton.addEventListener("click", function() {
   let guess = document.querySelector("#guess-input").value.toLowerCase();
   if (guess === targetWord.toLowerCase()) {
@@ -64,7 +65,8 @@ checkGuess(guess.toLowerCase());
 });
 
 // Clear button
-let clearButton = document.querySelector("#clear-button");
+const clearButton = document.querySelector("#clear-button");
+
 clearButton.addEventListener("click", function() {
 guessInput.value = "";
 letterElements.forEach(element => {
@@ -92,14 +94,16 @@ const giveUpButton = document.getElementById('give-up-button');
 
 giveUpButton.addEventListener("click", function() {
   guessInput.value = "";
+  guessButton.disabled = true;
+  clearButton.disabled = true;
+  letterElements.disabled = true;
   letterElements.forEach(element => {
   element.style.color = "black";
   });
   score = 0;
   document.querySelector("#score").textContent = score;
-  document.querySelector("#message").textContent = "Too bad. The answer is " + targetWord + ". Better luck next time.";
+  document.querySelector("#message").textContent = "The answer is " + targetWord + ". Click 'New Word' to play again.";
   });
-
 
 // initial setup
 chooseWord();
