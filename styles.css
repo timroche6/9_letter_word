@@ -138,6 +138,24 @@ h1 {
     transform: scale(1.1);
 }
 
+#give-up-button {
+    width: fit-content;
+    height: 40px;
+    margin: 10px 2px;
+    font-size: 1rem;
+    font-family: 'Press Start 2P', sans-serif;
+    font-weight: lighter;
+    background-color: lightgray;
+    color: black;
+    border: black;
+}
+
+#give-up-button:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
 /* style the score container */
 #score-container {
     text-align: center;

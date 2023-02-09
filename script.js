@@ -82,10 +82,26 @@ shuffleLetters();
 displayLetters();
 document.querySelector("#guess-input").value = "";
 document.querySelector("#message").textContent = "";
+score = 0;
+document.querySelector("#score").textContent = score;
 letterElements.forEach(element => {
 element.style.color = "black";
 });
 });
+
+// Give Up button
+const giveUpButton = document.getElementById('give-up-button');
+
+giveUpButton.addEventListener("click", function() {
+  guessInput.value = "";
+  letterElements.forEach(element => {
+  element.style.color = "black";
+  });
+  score = 0;
+  document.querySelector("#score").textContent = score;
+  document.querySelector("#message").textContent = "Too bad. The answer is " + targetWord + ". Better luck next time.";
+  });
+
 
 // initial setup
 chooseWord();
