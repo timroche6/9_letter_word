@@ -82,8 +82,6 @@ shuffleLetters();
 displayLetters();
 document.querySelector("#guess-input").value = "";
 document.querySelector("#message").textContent = "";
-score = 0;
-document.querySelector("#score").textContent = score;
 letterElements.forEach(element => {
 element.style.color = "black";
 });
