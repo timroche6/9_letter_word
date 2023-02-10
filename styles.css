@@ -94,15 +94,19 @@ button {
     font-size: 1rem;
     font-family: 'Press Start 2P', sans-serif;
     font-weight: lighter;
-    background-color: lightgray;
+    background-color: rgb(210, 210, 210);
     color: black;
-    border: black;
+    border: none;
+    box-shadow: 0 5px rgb(170, 170, 170);
 }
 
 button:hover {
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
+    background-color: rgb(190, 190, 190);
+}
+
+button:active {
+    box-shadow: 0 2px rgb(130, 130, 130);
+    transform: translateY(4px);
 }
 
 /* style the score container */
@@ -238,15 +242,15 @@ button:hover {
         font-size: 1rem;
         font-family: 'Press Start 2P', sans-serif;
         font-weight: lighter;
-        background-color: lightgray;
+        background-color: rgb(210, 210, 210);
         color: black;
-        border: black; 
+        border: none;
+        box-shadow: 0 5px rgb(170, 170, 170); 
     }
 
-    button:hover {
-        -webkit-transform: scale(1.1);
-        -ms-transform: scale(1.1);
-        transform: scale(1.1);
+    button:active {
+        box-shadow: 0 2px rgb(130, 130, 130);
+        transform: translateY(4px);
     }
 
 }
