@@ -74,10 +74,13 @@ h1 {
 }
 
 #guess-input {
-    width: fit-content;
-    max-width: 600px;
+    width: 390px;
     height: 50px;
-    margin: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    justify-content: center;
+    text-align: center;
     font-size: 1rem;
     font-family: 'Press Start 2P', sans-serif;
     font-weight: lighter;
@@ -218,7 +221,7 @@ h1 {
 
     #message {
         margin: 5rem;
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     } 
 
     #game-container {
@@ -266,13 +269,17 @@ h1 {
     
     #form {
         width: fit-content;
+        display: block;
     }
     
     #guess-input {
-        width: fit-content;
-        max-width: 600px;
+        width: 550px;
         height: 50px;
-        margin: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        justify-content: center;
+        text-align: center;
         font-size: 1rem;
         font-family: 'Press Start 2P', sans-serif;
         font-weight: lighter;
