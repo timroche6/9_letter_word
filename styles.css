@@ -86,7 +86,8 @@ h1 {
     font-weight: lighter;
 }
 
-#guess-button {
+/* style all buttons */
+button {
     width: fit-content;
     height: 40px;
     margin: 10px 2px;
@@ -98,62 +99,7 @@ h1 {
     border: black;
 }
 
-#guess-button:hover {
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
-}
-
-#clear-button {
-    width: fit-content;
-    height: 40px;
-    margin: 10px 2px;
-    font-size: 1rem;
-    font-family: 'Press Start 2P', sans-serif;
-    font-weight: lighter;
-    background-color: lightgray;
-    color: black;
-    border: black;
-}
-
-
-#clear-button:hover {
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
-}
-
-#new-word-button {
-    width: fit-content;
-    height: 40px;
-    margin: 10px 2px;
-    font-size: 1rem;
-    font-family: 'Press Start 2P', sans-serif;
-    font-weight: lighter;
-    background-color: lightgray;
-    color: black;
-    border: black;
-}
-
-#new-word-button:hover {
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
-}
-
-#give-up-button {
-    width: fit-content;
-    height: 40px;
-    margin: 10px 2px;
-    font-size: 1rem;
-    font-family: 'Press Start 2P', sans-serif;
-    font-weight: lighter;
-    background-color: lightgray;
-    color: black;
-    border: black;
-}
-
-#give-up-button:hover {
+button:hover {
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
@@ -285,7 +231,7 @@ h1 {
         font-weight: lighter;
     }
     
-    #guess-button {
+    button {
         width: fit-content;
         height: 40px;
         margin: 10px 10px;
@@ -294,47 +240,10 @@ h1 {
         font-weight: lighter;
         background-color: lightgray;
         color: black;
-        border: black;
+        border: black; 
     }
-    
-    #guess-button:hover {
-        -webkit-transform: scale(1.1);
-        -ms-transform: scale(1.1);
-        transform: scale(1.1);
-    }
-    
-    #clear-button {
-        width: fit-content;
-        height: 40px;
-        margin: 10px 10px;
-        font-size: 1rem;
-        font-family: 'Press Start 2P', sans-serif;
-        font-weight: lighter;
-        background-color: lightgray;
-        color: black;
-        border: black;
-    }
-    
-    
-    #clear-button:hover {
-        -webkit-transform: scale(1.1);
-        -ms-transform: scale(1.1);
-        transform: scale(1.1);
-    }
-    
-    #new-word-button {
-        width: fit-content;
-        height: 40px;
-        margin: 10px 10px;
-        font-size: 1rem;
-        font-family: 'Press Start 2P', sans-serif;
-        font-weight: lighter;
-        background-color: lightgray;
-        color: black;
-        border: black;
-    }
-    
-    #new-word-button:hover {
+
+    button:hover {
         -webkit-transform: scale(1.1);
         -ms-transform: scale(1.1);
         transform: scale(1.1);
