@@ -55,7 +55,7 @@ h1 {
     background-color: rgb(200, 200, 200);
     color: #fff;
     box-shadow: 0 2px rgb(130, 130, 130);
-    transform: translateY(4px);
+    transform: translateY(3px);
 }
 
 .letter:hover {
@@ -108,7 +108,7 @@ button:hover {
 
 button:active {
     box-shadow: 0 2px rgb(130, 130, 130);
-    transform: translateY(4px);
+    transform: translateY(3px);
 }
 
 /* style the score container */
@@ -203,7 +203,7 @@ button:active {
         justify-content: center;
         display: flex;
         margin: auto;
-        background-color: rgb(160, 160, 160);
+        background-color: rgb(200, 200, 200);
         text-align: center;
         font-size: 1.7rem;
         font-family: 'Press Start 2P', sans-serif;
@@ -216,7 +216,7 @@ button:active {
         background-color: rgb(200, 200, 200);
         color: #fff;
         box-shadow: 0 2px rgb(130, 130, 130);
-        transform: translateY(4px);
+        transform: translateY(3px);
     }
 
     #guess-container {
@@ -261,7 +261,7 @@ button:active {
 
     button:active {
         box-shadow: 0 2px rgb(130, 130, 130);
-        transform: translateY(4px);
+        transform: translateY(3px);
     }
 
 }
