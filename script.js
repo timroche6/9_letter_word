@@ -50,6 +50,9 @@ guessButton.addEventListener("click", function() {
     score++;
     document.querySelector("#score").textContent = score;
     document.querySelector("#message").textContent = "Congratulations! " + targetWord + " is correct!";
+    guessButton.disabled = true;
+    clearButton.disabled = true;
+    giveUpButton.disabled = true;
   } else {
     // update message
     document.querySelector("#message").textContent = "Sorry, that is not the correct word. Please try again.";
