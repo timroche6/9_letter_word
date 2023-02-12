@@ -109,7 +109,7 @@ giveUpButton.addEventListener("click", function() {
   });
   score = 0;
   document.querySelector("#score").textContent = score;
-  document.querySelector("#message").textContent = "The answer is " + targetWord + ". Click 'New Word' to play again.";
+  document.querySelector("#message").textContent = "The answer is " + targetWord + ". Better luck next time.";
   });
 
 // initial setup
