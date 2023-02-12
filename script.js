@@ -84,6 +84,7 @@ shuffleLetters();
 displayLetters();
 guessButton.disabled = false;
 clearButton.disabled = false;
+giveUpButton.disabled = false;
 document.querySelector("#guess-input").value = "";
 document.querySelector("#message").textContent = "";
 letterElements.forEach(element => {
@@ -98,6 +99,7 @@ giveUpButton.addEventListener("click", function() {
   guessInput.value = "";
   guessButton.disabled = true;
   clearButton.disabled = true;
+  giveUpButton.disabled = true;
   letterElements.disabled = true;
   letterElements.forEach(element => {
   element.style.color = "black";
