@@ -22,6 +22,7 @@ let letterElements = document.querySelectorAll(".letter");
 for (let i = 0; i < letterElements.length; i++) {
 letterElements[i].textContent = letters[i];
 }
+newWordButton.disabled = true;
 }
 
 // get the guess input element
@@ -50,6 +51,7 @@ guessButton.addEventListener("click", function() {
     score++;
     document.querySelector("#score").textContent = score;
     document.querySelector("#message").textContent = "Congratulations! " + targetWord + " is correct!";
+    newWordButton.disabled = false;
     guessButton.disabled = true;
     clearButton.disabled = true;
     giveUpButton.disabled = true;
@@ -100,6 +102,7 @@ const giveUpButton = document.getElementById('give-up-button');
 
 giveUpButton.addEventListener("click", function() {
   guessInput.value = "";
+  newWordButton.disabled = false;
   guessButton.disabled = true;
   clearButton.disabled = true;
   giveUpButton.disabled = true;
