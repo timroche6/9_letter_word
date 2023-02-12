@@ -111,6 +111,11 @@ button:active {
     transform: translateY(3px);
 }
 
+button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
 /* style the score container */
 #score-container {
     text-align: center;
@@ -262,6 +267,11 @@ button:active {
     button:active {
         box-shadow: 0 2px rgb(130, 130, 130);
         transform: translateY(3px);
+    }
+
+    button:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
     }
 
 }
