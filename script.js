@@ -58,7 +58,7 @@ guessButton.addEventListener("click", function() {
     score++;
     document.querySelector("#score").textContent = score;
     document.querySelector("#message").textContent = "Congratulations! " + targetWord + " is correct!";
-    newWordButton.style.display = "block";
+    newWordButton.style.display = "inline";
     guessButton.style.display = "none";
     clearButton.style.display = "none";
     giveUpButton.style.display = "none";
@@ -107,7 +107,7 @@ const giveUpButton = document.getElementById('give-up-button');
 
 giveUpButton.addEventListener("click", function() {
   guessInput.value = "";
-  newWordButton.style.display = "block";
+  newWordButton.style.display = "inline";
   guessButton.style.display = "none";
   clearButton.style.display = "none";
   giveUpButton.style.display = "none";
