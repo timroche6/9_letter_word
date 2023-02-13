@@ -60,6 +60,7 @@ h1 {
 
 .letter:hover {
     background-color: rgb(190, 190, 190);
+    cursor: pointer;
 }
 
 #guess-container {
@@ -101,21 +102,22 @@ h1 {
     color: black;
     border: none;
     box-shadow: 0 5px rgb(170, 170, 170);
-} */
+} 
 
 button:hover {
     background-color: rgb(190, 190, 190);
+    cursor: pointer;
 }
 
 button:active {
     box-shadow: 0 2px rgb(130, 130, 130);
     transform: translateY(3px);
-}
+} 
 
 button:disabled {
     opacity: 0.5;
     cursor: not-allowed;
-}
+} */
 
 #guess-button, #clear-button, #give-up-button {
     width: fit-content;
@@ -143,6 +145,16 @@ button:disabled {
     color: black;
     border: none;
     box-shadow: 0 5px rgb(170, 170, 170);
+}
+
+ #guess-button:hover, #clear-button:hover, #give-up-button:hover, #new-word-button:hover {
+    background-color: rgb(190, 190, 190);
+    cursor: pointer;
+}
+
+#guess-button:active, #clear-button:active, #give-up-button:active, #new-word-button:active {
+    box-shadow: 0 2px rgb(130, 130, 130);
+    transform: translateY(3px);
 }
 
 /* style the score container */
