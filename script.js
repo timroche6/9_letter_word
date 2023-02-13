@@ -94,9 +94,7 @@ newWordButton.addEventListener('click', function() {
 chooseWord();
 shuffleLetters();
 displayLetters();
-guessButton.disabled = false;
-clearButton.disabled = false;
-giveUpButton.disabled = false;
+displayButtons();
 document.querySelector("#guess-input").value = "";
 document.querySelector("#message").textContent = "";
 letterElements.forEach(element => {
@@ -109,11 +107,10 @@ const giveUpButton = document.getElementById('give-up-button');
 
 giveUpButton.addEventListener("click", function() {
   guessInput.value = "";
-  newWordButton.disabled = false;
-  guessButton.disabled = true;
-  clearButton.disabled = true;
-  giveUpButton.disabled = true;
-  letterElements.disabled = true;
+  newWordButton.style.display = "block";
+  guessButton.style.display = "none";
+  clearButton.style.display = "none";
+  giveUpButton.style.display = "none";
   letterElements.forEach(element => {
   element.style.color = "black";
   });
