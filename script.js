@@ -22,7 +22,13 @@ let letterElements = document.querySelectorAll(".letter");
 for (let i = 0; i < letterElements.length; i++) {
 letterElements[i].textContent = letters[i];
 }
-newWordButton.disabled = true;
+}
+
+function displayButtons() {
+  newWordButton.style.display = "none";
+  guessButton.style.display = "inline";
+  clearButton.style.display = "inline";
+  giveUpButton.style.display = "inline";
 }
 
 // get the guess input element
@@ -119,3 +125,4 @@ giveUpButton.addEventListener("click", function() {
 chooseWord();
 shuffleLetters();
 displayLetters();
+displayButtons();
