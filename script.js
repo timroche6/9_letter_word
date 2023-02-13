@@ -24,6 +24,7 @@ letterElements[i].textContent = letters[i];
 }
 }
 
+// display 'guess', 'clear' and 'give up' buttons and hide 'new word' button on start
 function displayButtons() {
   newWordButton.style.display = "none";
   guessButton.style.display = "inline";
@@ -57,10 +58,10 @@ guessButton.addEventListener("click", function() {
     score++;
     document.querySelector("#score").textContent = score;
     document.querySelector("#message").textContent = "Congratulations! " + targetWord + " is correct!";
-    newWordButton.disabled = false;
-    guessButton.disabled = true;
-    clearButton.disabled = true;
-    giveUpButton.disabled = true;
+    newWordButton.style.display = "block";
+    guessButton.style.display = "none";
+    clearButton.style.display = "none";
+    giveUpButton.style.display = "none";
   } else {
     // update message
     document.querySelector("#message").textContent = "Sorry, that is not the correct word. Please try again.";
