@@ -214,12 +214,13 @@ button:disabled {
     }
     
     #score-container, #message-container, #score, #score-text, #new-word-button, #guess-button, #clear-button, .letter {
-        font-size: 1rem;
+        font-size: 1.7rem;
     }
 
     #message {
         margin: 5rem;
-        font-size: 0.8rem;
+        font-size: 1.7rem;
+        line-height: 3;
     } 
 
     #game-container {
@@ -251,7 +252,7 @@ button:disabled {
         margin: auto;
         background-color: rgb(200, 200, 200);
         text-align: center;
-        font-size: 1.7rem;
+        font-size: 2rem;
         font-family: 'Press Start 2P', sans-serif;
         font-weight: regular;
         border: none;
@@ -284,19 +285,21 @@ button:disabled {
         height: 50px;
         margin-left: auto;
         margin-right: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
         display: grid;
         justify-content: center;
         text-align: center;
-        font-size: 1rem;
+        font-size: 1.6rem;
         font-family: 'Press Start 2P', sans-serif;
         font-weight: lighter;
     }
     
-    button {
+    /* button {
         width: fit-content;
         height: 40px;
         margin: 10px 10px;
-        font-size: 1rem;
+        font-size: 1.7rem;
         font-family: 'Press Start 2P', sans-serif;
         font-weight: lighter;
         background-color: rgb(210, 210, 210);
@@ -313,14 +316,15 @@ button:disabled {
     button:disabled {
         opacity: 0.5;
         cursor: not-allowed;
-    }
+    } */
 
     #guess-button, #clear-button, #give-up-button {
         width: fit-content;
         align-items: center;
         height: 40px;
         margin: 10px 15px;
-        font-size: 1rem;
+        font-size: 1.6rem;
+        padding: 10px
         font-family: 'Press Start 2P', sans-serif;
         font-weight: lighter;
         background-color: rgb(210, 210, 210);
@@ -334,13 +338,14 @@ button:disabled {
         align-items: center;
         height: 40px;
         margin: 10px 2px;
-        font-size: 1rem;
+        font-size: 1.6rem;
+        padding: 10px
         font-family: 'Press Start 2P', sans-serif;
         font-weight: lighter;
         background-color: rgb(210, 210, 210);
         color: black;
         border: none;
         box-shadow: 0 5px rgb(170, 170, 170);
-    }
+    } 
 
 }
