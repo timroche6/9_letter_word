@@ -10,18 +10,18 @@ h2 {
     text-align: center;
     font-family: 'Silkscreen', sans-serif;
     font-weight: lighter;
-    margin-top: 40px;
-    margin-bottom: 5px;
-    font-size: 2rem;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-size: 1.5rem;
 }
 
 h1 {
     text-align: center;
     font-family: 'Silkscreen', sans-serif;
     font-weight: lighter;
-    margin-top: 5px;
-    margin-bottom: 15px;
-    font-size: 3rem;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-size: 2.7rem;
 }
 
 #game-container {
@@ -29,9 +29,9 @@ h1 {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    margin-top: 0.2rem;
-    margin-bottom: 0.2rem;
-    padding: 0.2rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 0.1rem;
     font-family: 'Press Start 2P', sans-serif;
 }
 
@@ -40,8 +40,9 @@ h1 {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-gap: 10px;
-    margin: auto;
-    padding: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
 }
 
 .letter {
@@ -53,7 +54,7 @@ h1 {
     margin: auto;
     background-color: rgb(200, 200, 200);
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-family: 'Press Start 2P', sans-serif;
     font-weight: regular;
     border: none;
@@ -91,6 +92,7 @@ h1 {
     height: 50px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 2px;
     display: grid;
     justify-content: center;
     text-align: center;
@@ -131,8 +133,8 @@ button:disabled {
 #guess-button, #clear-button, #give-up-button {
     width: fit-content;
     align-items: center;
-    height: 40px;
-    margin: 10px 15px;
+    height: 30px;
+    margin: 5px 15px;
     font-size: 1rem;
     font-family: 'Press Start 2P', sans-serif;
     font-weight: lighter;
@@ -145,8 +147,8 @@ button:disabled {
 #new-word-button {
     width: fit-content;
     align-items: center;
-    height: 40px;
-    margin: 10px 2px;
+    height: 30px;
+    margin: 5px 2px;
     font-size: 1rem;
     font-family: 'Press Start 2P', sans-serif;
     font-weight: lighter;
@@ -172,13 +174,13 @@ button:disabled {
     font-size: 1rem;
     font-family: 'Press Start 2P', sans-serif;
     font-weight: lighter;
-    margin-top: auto;
+    margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
 #score {
     text-align: center;
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-family: 'Press Start 2P', sans-serif;
     font-weight: lighter;
     margin: auto;    
@@ -186,7 +188,7 @@ button:disabled {
 
 #score-text {
     text-align: center;
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-family: 'Press Start 2P', sans-serif;
     font-weight: lighter;
     margin: auto;      
