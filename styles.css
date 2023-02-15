@@ -210,7 +210,7 @@ button:disabled {
     margin-bottom: 2rem;    
 }
 
-/* Optimising for iPhone 12 */
+/* Optimisation for iPhone 12 */
 @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 812px) 
@@ -346,7 +346,7 @@ button:disabled {
 
 }
 
-/* Optimising for Samsung Galaxy S8 */
+/* Optimisation for Samsung Galaxy S8 */
 @media screen 
   and (device-width: 360px) 
   and (device-height: 740px) 
@@ -481,3 +481,139 @@ button:disabled {
     } 
 
 }
+
+/* Optimisation for Google Pixel 5 */
+@media screen 
+  and (device-width: 393px) 
+  and (device-height: 851px) 
+  and (-webkit-min-device-pixel-ratio: 2.75) {
+
+    h2 {
+        text-align: center;
+        font-family: 'Silkscreen', sans-serif;
+        font-weight: lighter;
+        margin-top: 50px;
+        margin-bottom: 10px;
+        font-size: 3rem;
+    }
+    
+    h1 {
+        text-align: center;
+        font-family: 'Silkscreen', sans-serif;
+        font-weight: lighter;
+        margin-top: 10px;
+        margin-bottom: 50px;
+        font-size: 5rem;
+    }
+    
+    #score-container, #message-container, #score, #score-text, #new-word-button, #guess-button, #clear-button, .letter {
+        font-size: 1.7rem;
+    }
+
+    #message {
+        margin: 5rem;
+        font-size: 1.7rem;
+        line-height: 3;
+    } 
+
+    #game-container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0.2rem;
+        margin-bottom: 0.2rem;
+        padding: 0.2rem;
+        font-family: 'Press Start 2P', sans-serif;
+    }
+    
+    #letter-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-gap: 10px;
+        margin: auto;
+        padding: 20px;
+    }
+    
+    .letter {
+        width: 180px;
+        height: 180px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin: auto;
+        background-color: rgb(200, 200, 200);
+        text-align: center;
+        font-size: 2rem;
+        font-family: 'Press Start 2P', sans-serif;
+        font-weight: regular;
+        border: none;
+        box-shadow: 0 5px rgb(170, 170, 170);
+    }
+
+    .letter:active {
+        background-color: rgb(200, 200, 200);
+        color: #fff;
+        box-shadow: 0 2px rgb(130, 130, 130);
+        transform: translateY(3px);
+    }
+
+    #guess-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 0.5rem;
+        height: fit-content;
+    }
+    
+    #form {
+        width: fit-content;
+        display: block;
+    }
+    
+    #guess-input {
+        width: 550px;
+        height: 60px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        display: grid;
+        justify-content: center;
+        text-align: center;
+        font-size: 1.6rem;
+        font-family: 'Press Start 2P', sans-serif;
+        font-weight: lighter;
+    }
+
+    #guess-button, #clear-button, #give-up-button {
+        width: fit-content;
+        align-items: center;
+        height: 60px;
+        margin: 10px 15px;
+        font-size: 1.6rem;
+        font-family: 'Press Start 2P', sans-serif;
+        font-weight: lighter;
+        background-color: rgb(210, 210, 210);
+        color: black;
+        border: none;
+        box-shadow: 0 5px rgb(170, 170, 170);
+    }
+    
+    #new-word-button {
+        width: fit-content;
+        align-items: center;
+        height: 60px;
+        margin: 10px 2px;
+        font-size: 1.6rem;
+        font-family: 'Press Start 2P', sans-serif;
+        font-weight: lighter;
+        background-color: rgb(210, 210, 210);
+        color: black;
+        border: none;
+        box-shadow: 0 5px rgb(170, 170, 170);
+    } 
+
+  }
