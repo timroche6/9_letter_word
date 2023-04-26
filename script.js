@@ -82,7 +82,7 @@ const clearButton = document.querySelector("#clear-button");
 clearButton.addEventListener("click", function() {
   guessInput.value = "";
   letterElements.forEach(element => {
-    element.style.color = "#ef4565";
+    element.style.color = "#094067";
     });
   document.querySelector("#message").textContent = "";
 });
@@ -98,7 +98,7 @@ newWordButton.addEventListener('click', function() {
   document.querySelector("#guess-input").value = "";
   document.querySelector("#message").textContent = "";
   letterElements.forEach(element => {
-    element.style.color = "#ef4565";
+    element.style.color = "#094067";
     });
 });
 
@@ -112,7 +112,7 @@ giveUpButton.addEventListener("click", function() {
   clearButton.style.display = "none";
   giveUpButton.style.display = "none";
   letterElements.forEach(element => {
-  element.style.color = "#ef4565";
+  element.style.color = "#094067";
   });
   score = 0;
   document.querySelector("#score").textContent = score;

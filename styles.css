@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: #fffffe;
+    background-color:#b8c7bf;
     height: 100vh;
 }
 
@@ -109,6 +109,10 @@ h1 {
     color: #042034;
 }
 
+input:focus {
+    outline: none;
+}
+
 ::placeholder {
     color: #042034;
     opacity: 0.7;
@@ -152,7 +156,7 @@ button:disabled {
     font-family: 'Press Start 2P', sans-serif;
     font-weight: lighter;
     background-color: #90b4ce;
-    color: #042034;
+    color: #094067;
     border: none;
     box-shadow: 0 5px #094067;
 }
@@ -166,7 +170,7 @@ button:disabled {
     font-family: 'Press Start 2P', sans-serif;
     font-weight: lighter;
     background-color: #90b4ce;
-    color: #042034;
+    color: #094067;
     border: none;
     box-shadow: 0 5px #094067;
 }
@@ -197,7 +201,7 @@ button:disabled {
     font-family: 'Press Start 2P', sans-serif;
     font-weight: lighter;
     margin: auto;
-    color: #094067;    
+    color: #ef4565; 
 }
 
 #score-text {
@@ -206,7 +210,7 @@ button:disabled {
     font-family: 'Press Start 2P', sans-serif;
     font-weight: lighter;
     margin: auto; 
-    color: #094067;      
+    color: #ef4565;    
 }
 
 #message-container {
@@ -339,6 +343,10 @@ button:disabled {
         font-size: 1.6rem;
         font-family: 'Press Start 2P', sans-serif;
         font-weight: lighter;
+    }
+
+    input:focus {
+        outline: none;
     }
 
     #guess-button, #clear-button, #give-up-button {
@@ -480,6 +488,10 @@ button:disabled {
         font-weight: lighter;
     }
 
+    input:focus {
+        outline: none;
+    }
+
     #guess-button, #clear-button, #give-up-button {
         width: fit-content;
         align-items: center;
@@ -617,6 +629,10 @@ button:disabled {
         font-size: 1.6rem;
         font-family: 'Press Start 2P', sans-serif;
         font-weight: lighter;
+    }
+
+    input:focus {
+        outline: none;
     }
 
     #guess-button, #clear-button, #give-up-button {
