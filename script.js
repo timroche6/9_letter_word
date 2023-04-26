@@ -42,7 +42,7 @@ const letterElements = document.querySelectorAll('.letter');
 letterElements.forEach(element => {
   element.addEventListener('click', event => {
     // change the color of the clicked letter
-    event.target.style.color = 'white';
+    event.target.style.color = '#ef4565';
     // add the letter to the guess-input
     guessInput.value += event.target.innerHTML;
   });
