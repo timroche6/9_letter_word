@@ -181,7 +181,7 @@ button:disabled {
 }
 
 #guess-button:active, #clear-button:active, #give-up-button:active, #new-word-button:active {
-    box-shadow: 0 2px #3da9fc;
+    box-shadow: 0 2px #094067;
     transform: translateY(3px);
 }
 
