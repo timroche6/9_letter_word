@@ -42,7 +42,7 @@ const letterElements = document.querySelectorAll('.letter');
 letterElements.forEach(element => {
   element.addEventListener('click', event => {
     // change the color of the clicked letter
-    event.target.style.color = 'white';
+    event.target.style.color = '#f1f2da';
     // add the letter to the guess-input
     guessInput.value += event.target.innerHTML;
   });
@@ -82,7 +82,7 @@ const clearButton = document.querySelector("#clear-button");
 clearButton.addEventListener("click", function() {
   guessInput.value = "";
   letterElements.forEach(element => {
-    element.style.color = "black";
+    element.style.color = "#00303b";
     });
   document.querySelector("#message").textContent = "";
 });
@@ -98,7 +98,7 @@ newWordButton.addEventListener('click', function() {
   document.querySelector("#guess-input").value = "";
   document.querySelector("#message").textContent = "";
   letterElements.forEach(element => {
-    element.style.color = "black";
+    element.style.color = "#00303b";
     });
 });
 
@@ -112,7 +112,7 @@ giveUpButton.addEventListener("click", function() {
   clearButton.style.display = "none";
   giveUpButton.style.display = "none";
   letterElements.forEach(element => {
-  element.style.color = "black";
+  element.style.color = "#00303b";
   });
   score = 0;
   document.querySelector("#score").textContent = score;

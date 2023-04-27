@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: #f5f5f5;
+    background-color: #f1f2da;
     height: 100vh;
 }
 
@@ -11,6 +11,7 @@ h2 {
     text-align: center;
     font-family: 'Silkscreen', sans-serif;
     font-weight: lighter;
+    color: #00303b;
     margin-top: 5px;
     margin-bottom: 0px;
     font-size: 1.8rem;
@@ -20,6 +21,7 @@ h1 {
     text-align: center;
     font-family: 'Silkscreen', sans-serif;
     font-weight: lighter;
+    color: #00303b;
     margin-top: 0px;
     margin-bottom: 5px;
     font-size: 2.8rem;
@@ -53,24 +55,26 @@ h1 {
     justify-content: center;
     display: flex;
     margin: auto;
-    background-color: rgb(200, 200, 200);
+    background-color: #ff7777;
+    color: #00303b;
     text-align: center;
     font-size: 1.2rem;
     font-family: 'Press Start 2P', sans-serif;
     font-weight: regular;
     border: none;
-    box-shadow: 0 5px rgb(170, 170, 170);
+    box-shadow: 0 5px #00303b;
 }
 
 .letter:active {
-    background-color: rgb(200, 200, 200);
-    color: #fff;
-    box-shadow: 0 2px rgb(130, 130, 130);
+    background-color: #ffce96;
+    color: #f1f2da;
+    box-shadow: 0 2px #00303b;
     transform: translateY(3px);
 }
 
 .letter:hover {
-    background-color: rgb(190, 190, 190);
+    background-color: #ffce96;
+    box-shadow: 0 5px #00303b;
     cursor: pointer;
 }
 
@@ -102,34 +106,9 @@ h1 {
     font-weight: lighter;
 }
 
-/* style all buttons */
-/* button {
-    width: fit-content;
-    height: 40px;
-    margin: 10px 2px;
-    font-size: 1rem;
-    font-family: 'Press Start 2P', sans-serif;
-    font-weight: lighter;
-    background-color: rgb(210, 210, 210);
-    color: black;
-    border: none;
-    box-shadow: 0 5px rgb(170, 170, 170);
-} 
-
-button:hover {
-    background-color: rgb(190, 190, 190);
-    cursor: pointer;
+textarea:focus, input:focus{
+    outline: none;
 }
-
-button:active {
-    box-shadow: 0 2px rgb(130, 130, 130);
-    transform: translateY(3px);
-} 
-
-button:disabled {
-    opacity: 0.5;
-    cursor: not-allowed;
-} */
 
 #guess-button, #clear-button, #give-up-button {
     width: fit-content;
@@ -139,10 +118,10 @@ button:disabled {
     font-size: 1rem;
     font-family: 'Press Start 2P', sans-serif;
     font-weight: lighter;
-    background-color: rgb(210, 210, 210);
-    color: black;
+    background-color: #ff7777;
+    color: #00303b;
     border: none;
-    box-shadow: 0 5px rgb(170, 170, 170);
+    box-shadow: 0 5px #00303b;
 }
 
 #new-word-button {
@@ -153,19 +132,19 @@ button:disabled {
     font-size: 1rem;
     font-family: 'Press Start 2P', sans-serif;
     font-weight: lighter;
-    background-color: rgb(210, 210, 210);
-    color: black;
+    background-color: #ff7777;
+    color: #00303b;
     border: none;
-    box-shadow: 0 5px rgb(170, 170, 170);
+    box-shadow: 0 5px #00303b;
 }
 
  #guess-button:hover, #clear-button:hover, #give-up-button:hover, #new-word-button:hover {
-    background-color: rgb(190, 190, 190);
+    background-color: #ffce96;
     cursor: pointer;
 }
 
 #guess-button:active, #clear-button:active, #give-up-button:active, #new-word-button:active {
-    box-shadow: 0 2px rgb(130, 130, 130);
+    box-shadow: 0 2px #00303b;
     transform: translateY(3px);
 }
 
@@ -184,7 +163,8 @@ button:disabled {
     font-size: 0.9rem;
     font-family: 'Press Start 2P', sans-serif;
     font-weight: lighter;
-    margin: auto;    
+    margin: auto;
+    color: #00303b;    
 }
 
 #score-text {
@@ -192,7 +172,8 @@ button:disabled {
     font-size: 0.9rem;
     font-family: 'Press Start 2P', sans-serif;
     font-weight: lighter;
-    margin: auto;      
+    margin: auto; 
+    color: #00303b;     
 }
 
 #message-container {
@@ -208,7 +189,8 @@ button:disabled {
     font-size: 1rem;
     font-family: 'Press Start 2P', sans-serif;
     font-weight: lighter;
-    margin-bottom: 2rem;    
+    margin-bottom: 2rem;
+    color: #00303b;     
 }
 
 /* Optimisation for iPhone 12 */
@@ -272,19 +254,14 @@ button:disabled {
         justify-content: center;
         display: flex;
         margin: auto;
-        background-color: rgb(200, 200, 200);
         text-align: center;
         font-size: 2rem;
         font-family: 'Press Start 2P', sans-serif;
         font-weight: regular;
         border: none;
-        box-shadow: 0 5px rgb(170, 170, 170);
     }
 
     .letter:active {
-        background-color: rgb(200, 200, 200);
-        color: #fff;
-        box-shadow: 0 2px rgb(130, 130, 130);
         transform: translateY(3px);
     }
 
@@ -325,10 +302,7 @@ button:disabled {
         font-size: 1.6rem;
         font-family: 'Press Start 2P', sans-serif;
         font-weight: lighter;
-        background-color: rgb(210, 210, 210);
-        color: black;
         border: none;
-        box-shadow: 0 5px rgb(170, 170, 170);
     }
     
     #new-word-button {
@@ -339,10 +313,7 @@ button:disabled {
         font-size: 1.6rem;
         font-family: 'Press Start 2P', sans-serif;
         font-weight: lighter;
-        background-color: rgb(210, 210, 210);
-        color: black;
         border: none;
-        box-shadow: 0 5px rgb(170, 170, 170);
     } 
 
 }
@@ -408,19 +379,14 @@ button:disabled {
         justify-content: center;
         display: flex;
         margin: auto;
-        background-color: rgb(200, 200, 200);
         text-align: center;
         font-size: 2rem;
         font-family: 'Press Start 2P', sans-serif;
         font-weight: regular;
         border: none;
-        box-shadow: 0 5px rgb(170, 170, 170);
     }
 
     .letter:active {
-        background-color: rgb(200, 200, 200);
-        color: #fff;
-        box-shadow: 0 2px rgb(130, 130, 130);
         transform: translateY(3px);
     }
 
@@ -461,10 +427,7 @@ button:disabled {
         font-size: 1.6rem;
         font-family: 'Press Start 2P', sans-serif;
         font-weight: lighter;
-        background-color: rgb(210, 210, 210);
-        color: black;
         border: none;
-        box-shadow: 0 5px rgb(170, 170, 170);
     }
     
     #new-word-button {
@@ -475,10 +438,7 @@ button:disabled {
         font-size: 1.6rem;
         font-family: 'Press Start 2P', sans-serif;
         font-weight: lighter;
-        background-color: rgb(210, 210, 210);
-        color: black;
         border: none;
-        box-shadow: 0 5px rgb(170, 170, 170);
     } 
 
 }
@@ -544,19 +504,14 @@ button:disabled {
         justify-content: center;
         display: flex;
         margin: auto;
-        background-color: rgb(200, 200, 200);
         text-align: center;
         font-size: 2rem;
         font-family: 'Press Start 2P', sans-serif;
         font-weight: regular;
         border: none;
-        box-shadow: 0 5px rgb(170, 170, 170);
     }
 
     .letter:active {
-        background-color: rgb(200, 200, 200);
-        color: #fff;
-        box-shadow: 0 2px rgb(130, 130, 130);
         transform: translateY(3px);
     }
 
@@ -597,10 +552,7 @@ button:disabled {
         font-size: 1.6rem;
         font-family: 'Press Start 2P', sans-serif;
         font-weight: lighter;
-        background-color: rgb(210, 210, 210);
-        color: black;
         border: none;
-        box-shadow: 0 5px rgb(170, 170, 170);
     }
     
     #new-word-button {
@@ -611,10 +563,7 @@ button:disabled {
         font-size: 1.6rem;
         font-family: 'Press Start 2P', sans-serif;
         font-weight: lighter;
-        background-color: rgb(210, 210, 210);
-        color: black;
         border: none;
-        box-shadow: 0 5px rgb(170, 170, 170);
     } 
 
   }
@@ -681,19 +630,14 @@ and (-webkit-min-device-pixel-ratio: 2) {
       justify-content: center;
       display: flex;
       margin: auto;
-      background-color: rgb(200, 200, 200);
       text-align: center;
       font-size: 2rem;
       font-family: 'Press Start 2P', sans-serif;
       font-weight: regular;
       border: none;
-      box-shadow: 0 5px rgb(170, 170, 170);
   }
 
   .letter:active {
-      background-color: rgb(200, 200, 200);
-      color: #fff;
-      box-shadow: 0 2px rgb(130, 130, 130);
       transform: translateY(3px);
   }
 
@@ -734,10 +678,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
       font-size: 1.6rem;
       font-family: 'Press Start 2P', sans-serif;
       font-weight: lighter;
-      background-color: rgb(210, 210, 210);
-      color: black;
       border: none;
-      box-shadow: 0 5px rgb(170, 170, 170);
   }
   
   #new-word-button {
@@ -748,10 +689,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
       font-size: 1.6rem;
       font-family: 'Press Start 2P', sans-serif;
       font-weight: lighter;
-      background-color: rgb(210, 210, 210);
-      color: black;
       border: none;
-      box-shadow: 0 5px rgb(170, 170, 170);
   } 
 
 }
