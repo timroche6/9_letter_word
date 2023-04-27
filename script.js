@@ -113,6 +113,7 @@ giveUpButton.addEventListener("click", function() {
   giveUpButton.style.display = "none";
   letterElements.forEach(element => {
   element.style.color = "#00303b";
+
   });
   score = 0;
   document.querySelector("#score").textContent = score;

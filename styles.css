@@ -104,6 +104,16 @@ h1 {
     font-size: 1rem;
     font-family: 'Press Start 2P', sans-serif;
     font-weight: lighter;
+    color: #042034;
+}
+
+input:focus {
+    outline: none;
+}
+
+::placeholder {
+    color: #042034;
+    opacity: 0.7;
 }
 
 textarea:focus, input:focus{
@@ -122,6 +132,7 @@ textarea:focus, input:focus{
     color: #00303b;
     border: none;
     box-shadow: 0 5px #00303b;
+
 }
 
 #new-word-button {
@@ -182,6 +193,7 @@ textarea:focus, input:focus{
     font-family: 'Press Start 2P', sans-serif;
     font-weight: lighter;
     margin-bottom: 1rem;
+    color: #094067; 
 }
 
 #message {
@@ -203,6 +215,7 @@ textarea:focus, input:focus{
         text-align: center;
         font-family: 'Silkscreen', sans-serif;
         font-weight: lighter;
+        color: #094067;
         margin-top: 50px;
         margin-bottom: 10px;
         font-size: 3rem;
@@ -212,6 +225,7 @@ textarea:focus, input:focus{
         text-align: center;
         font-family: 'Silkscreen', sans-serif;
         font-weight: lighter;
+        color: #094067;
         margin-top: 10px;
         margin-bottom: 50px;
         font-size: 5rem;
@@ -278,6 +292,11 @@ textarea:focus, input:focus{
         width: fit-content;
         display: block;
     }
+
+    ::placeholder {
+        color: #042034;
+        opacity: 0.7;
+    }
     
     #guess-input {
         width: 550px;
@@ -292,6 +311,10 @@ textarea:focus, input:focus{
         font-size: 1.6rem;
         font-family: 'Press Start 2P', sans-serif;
         font-weight: lighter;
+    }
+
+    input:focus {
+        outline: none;
     }
 
     #guess-button, #clear-button, #give-up-button {
@@ -328,6 +351,7 @@ textarea:focus, input:focus{
         text-align: center;
         font-family: 'Silkscreen', sans-serif;
         font-weight: lighter;
+        color: #094067;
         margin-top: 50px;
         margin-bottom: 10px;
         font-size: 3rem;
@@ -337,6 +361,7 @@ textarea:focus, input:focus{
         text-align: center;
         font-family: 'Silkscreen', sans-serif;
         font-weight: lighter;
+        color: #094067;
         margin-top: 10px;
         margin-bottom: 50px;
         font-size: 5rem;
@@ -417,6 +442,10 @@ textarea:focus, input:focus{
         font-size: 1.6rem;
         font-family: 'Press Start 2P', sans-serif;
         font-weight: lighter;
+    }
+
+    input:focus {
+        outline: none;
     }
 
     #guess-button, #clear-button, #give-up-button {
@@ -453,6 +482,7 @@ textarea:focus, input:focus{
         text-align: center;
         font-family: 'Silkscreen', sans-serif;
         font-weight: lighter;
+        color: #094067;
         margin-top: 50px;
         margin-bottom: 10px;
         font-size: 3rem;
@@ -462,6 +492,7 @@ textarea:focus, input:focus{
         text-align: center;
         font-family: 'Silkscreen', sans-serif;
         font-weight: lighter;
+        color: #094067;
         margin-top: 10px;
         margin-bottom: 50px;
         font-size: 5rem;
@@ -542,6 +573,10 @@ textarea:focus, input:focus{
         font-size: 1.6rem;
         font-family: 'Press Start 2P', sans-serif;
         font-weight: lighter;
+    }
+
+    input:focus {
+        outline: none;
     }
 
     #guess-button, #clear-button, #give-up-button {
@@ -693,3 +728,4 @@ and (-webkit-min-device-pixel-ratio: 2) {
   } 
 
 }
+
