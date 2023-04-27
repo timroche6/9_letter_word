@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color:#b8c7bf;
+    background-color: #f1f2da;
     height: 100vh;
 }
 
@@ -11,8 +11,7 @@ h2 {
     text-align: center;
     font-family: 'Silkscreen', sans-serif;
     font-weight: lighter;
-    color: #094067;
-    /* text-shadow: 0px 2px #121629; */
+    color: #00303b;
     margin-top: 5px;
     margin-bottom: 0px;
     font-size: 1.8rem;
@@ -22,8 +21,7 @@ h1 {
     text-align: center;
     font-family: 'Silkscreen', sans-serif;
     font-weight: lighter;
-    color: #094067;
-    /* text-shadow: 0px 2px #121629; */
+    color: #00303b;
     margin-top: 0px;
     margin-bottom: 5px;
     font-size: 2.8rem;
@@ -57,26 +55,26 @@ h1 {
     justify-content: center;
     display: flex;
     margin: auto;
-    background-color: #90b4ce;
-    color: #094067;
+    background-color: #ff7777;
+    color: #00303b;
     text-align: center;
     font-size: 1.2rem;
     font-family: 'Press Start 2P', sans-serif;
     font-weight: regular;
     border: none;
-    box-shadow: 0 5px #094067;
+    box-shadow: 0 5px #00303b;
 }
 
 .letter:active {
-    background-color: #3da9fc;
-    color: #ef4565;
-    box-shadow: 0 2px #094067;
+    background-color: #ffce96;
+    color: #f1f2da;
+    box-shadow: 0 2px #00303b;
     transform: translateY(3px);
 }
 
 .letter:hover {
-    background-color: #3da9fc;
-    box-shadow: 0 5px #094067;
+    background-color: #ffce96;
+    box-shadow: 0 5px #00303b;
     cursor: pointer;
 }
 
@@ -118,34 +116,9 @@ input:focus {
     opacity: 0.7;
 }
 
-/* style all buttons */
-/* button {
-    width: fit-content;
-    height: 40px;
-    margin: 10px 2px;
-    font-size: 1rem;
-    font-family: 'Press Start 2P', sans-serif;
-    font-weight: lighter;
-    background-color: rgb(210, 210, 210);
-    color: black;
-    border: none;
-    box-shadow: 0 5px rgb(170, 170, 170);
-} 
-
-button:hover {
-    background-color: rgb(190, 190, 190);
-    cursor: pointer;
+textarea:focus, input:focus{
+    outline: none;
 }
-
-button:active {
-    box-shadow: 0 2px rgb(130, 130, 130);
-    transform: translateY(3px);
-} 
-
-button:disabled {
-    opacity: 0.5;
-    cursor: not-allowed;
-} */
 
 #guess-button, #clear-button, #give-up-button {
     width: fit-content;
@@ -155,10 +128,11 @@ button:disabled {
     font-size: 1rem;
     font-family: 'Press Start 2P', sans-serif;
     font-weight: lighter;
-    background-color: #90b4ce;
-    color: #094067;
+    background-color: #ff7777;
+    color: #00303b;
     border: none;
-    box-shadow: 0 5px #094067;
+    box-shadow: 0 5px #00303b;
+
 }
 
 #new-word-button {
@@ -169,19 +143,19 @@ button:disabled {
     font-size: 1rem;
     font-family: 'Press Start 2P', sans-serif;
     font-weight: lighter;
-    background-color: #90b4ce;
-    color: #094067;
+    background-color: #ff7777;
+    color: #00303b;
     border: none;
-    box-shadow: 0 5px #094067;
+    box-shadow: 0 5px #00303b;
 }
 
  #guess-button:hover, #clear-button:hover, #give-up-button:hover, #new-word-button:hover {
-    background-color: #3da9fc;
+    background-color: #ffce96;
     cursor: pointer;
 }
 
 #guess-button:active, #clear-button:active, #give-up-button:active, #new-word-button:active {
-    box-shadow: 0 2px #094067;
+    box-shadow: 0 2px #00303b;
     transform: translateY(3px);
 }
 
@@ -201,7 +175,7 @@ button:disabled {
     font-family: 'Press Start 2P', sans-serif;
     font-weight: lighter;
     margin: auto;
-    color: #ef4565; 
+    color: #00303b;    
 }
 
 #score-text {
@@ -210,7 +184,7 @@ button:disabled {
     font-family: 'Press Start 2P', sans-serif;
     font-weight: lighter;
     margin: auto; 
-    color: #ef4565;    
+    color: #00303b;     
 }
 
 #message-container {
@@ -228,7 +202,7 @@ button:disabled {
     font-family: 'Press Start 2P', sans-serif;
     font-weight: lighter;
     margin-bottom: 2rem;
-    color: #094067;     
+    color: #00303b;     
 }
 
 /* Optimisation for iPhone 12 */
@@ -294,20 +268,14 @@ button:disabled {
         justify-content: center;
         display: flex;
         margin: auto;
-        background-color: #90b4ce;
-        color: #094067;
         text-align: center;
         font-size: 2rem;
         font-family: 'Press Start 2P', sans-serif;
         font-weight: regular;
         border: none;
-        box-shadow: 0 5px #094067;
     }
 
     .letter:active {
-        background-color: #3da9fc;
-        color: #ef4565;
-        box-shadow: 0 2px #094067;
         transform: translateY(3px);
     }
 
@@ -357,10 +325,7 @@ button:disabled {
         font-size: 1.6rem;
         font-family: 'Press Start 2P', sans-serif;
         font-weight: lighter;
-        background-color: #90b4ce;
-        color: black;
         border: none;
-        box-shadow: 0 5px #094067;
     }
     
     #new-word-button {
@@ -371,10 +336,7 @@ button:disabled {
         font-size: 1.6rem;
         font-family: 'Press Start 2P', sans-serif;
         font-weight: lighter;
-        background-color: #90b4ce;
-        color: black;
         border: none;
-        box-shadow: 0 5px #094067;
     } 
 
 }
@@ -442,20 +404,14 @@ button:disabled {
         justify-content: center;
         display: flex;
         margin: auto;
-        background-color: #90b4ce;
-        color: #094067;
         text-align: center;
         font-size: 2rem;
         font-family: 'Press Start 2P', sans-serif;
         font-weight: regular;
         border: none;
-        box-shadow: 0 5px #094067;
     }
 
     .letter:active {
-        background-color: #3da9fc;
-        color: #ef4565;
-        box-shadow: 0 2px #094067;
         transform: translateY(3px);
     }
 
@@ -500,10 +456,7 @@ button:disabled {
         font-size: 1.6rem;
         font-family: 'Press Start 2P', sans-serif;
         font-weight: lighter;
-        background-color: #90b4ce;
-        color: black;
         border: none;
-        box-shadow: 0 5px #094067;
     }
     
     #new-word-button {
@@ -514,10 +467,7 @@ button:disabled {
         font-size: 1.6rem;
         font-family: 'Press Start 2P', sans-serif;
         font-weight: lighter;
-        background-color: #90b4ce;
-        color: black;
         border: none;
-        box-shadow: 0 5px #094067;
     } 
 
 }
@@ -585,20 +535,14 @@ button:disabled {
         justify-content: center;
         display: flex;
         margin: auto;
-        background-color: #90b4ce;
-        color: #094067;
         text-align: center;
         font-size: 2rem;
         font-family: 'Press Start 2P', sans-serif;
         font-weight: regular;
         border: none;
-        box-shadow: 0 5px #094067;
     }
 
     .letter:active {
-        background-color: #3da9fc;
-        color: #ef4565;
-        box-shadow: 0 2px #094067;
         transform: translateY(3px);
     }
 
@@ -643,10 +587,7 @@ button:disabled {
         font-size: 1.6rem;
         font-family: 'Press Start 2P', sans-serif;
         font-weight: lighter;
-        background-color: #90b4ce;
-        color: black;
         border: none;
-        box-shadow: 0 5px #094067;
     }
     
     #new-word-button {
@@ -657,10 +598,134 @@ button:disabled {
         font-size: 1.6rem;
         font-family: 'Press Start 2P', sans-serif;
         font-weight: lighter;
-        background-color: #90b4ce;
-        color: black;
         border: none;
-        box-shadow: 0 5px #094067;
-    }  
+    } 
 
   }
+
+
+/* Optimisation for Samsung Galaxy Fold */
+@media screen 
+and (device-width: 768px) 
+and (device-height: 1076px) 
+and (-webkit-min-device-pixel-ratio: 2) {
+
+  h2 {
+      text-align: center;
+      font-family: 'Silkscreen', sans-serif;
+      font-weight: lighter;
+      margin-top: 50px;
+      margin-bottom: 10px;
+      font-size: 3rem;
+  }
+  
+  h1 {
+      text-align: center;
+      font-family: 'Silkscreen', sans-serif;
+      font-weight: lighter;
+      margin-top: 10px;
+      margin-bottom: 50px;
+      font-size: 5rem;
+  }
+  
+  #score-container, #message-container, #score, #score-text, #new-word-button, #guess-button, #clear-button, .letter {
+      font-size: 1.7rem;
+  }
+
+  #message {
+      margin: 5rem;
+      font-size: 1.7rem;
+      line-height: 3;
+  } 
+
+  #game-container {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      margin-top: 0.2rem;
+      margin-bottom: 0.2rem;
+      padding: 0.2rem;
+      font-family: 'Press Start 2P', sans-serif;
+  }
+  
+  #letter-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      grid-gap: 10px;
+      margin: auto;
+      padding: 20px;
+  }
+  
+  .letter {
+      width: 180px;
+      height: 180px;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      margin: auto;
+      text-align: center;
+      font-size: 2rem;
+      font-family: 'Press Start 2P', sans-serif;
+      font-weight: regular;
+      border: none;
+  }
+
+  .letter:active {
+      transform: translateY(3px);
+  }
+
+  #guess-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 0.5rem;
+      height: fit-content;
+  }
+  
+  #form {
+      width: fit-content;
+      display: block;
+  }
+  
+  #guess-input {
+      width: 550px;
+      height: 60px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      display: grid;
+      justify-content: center;
+      text-align: center;
+      font-size: 1.6rem;
+      font-family: 'Press Start 2P', sans-serif;
+      font-weight: lighter;
+  }
+
+  #guess-button, #clear-button, #give-up-button {
+      width: fit-content;
+      align-items: center;
+      height: 60px;
+      margin: 10px 15px;
+      font-size: 1.6rem;
+      font-family: 'Press Start 2P', sans-serif;
+      font-weight: lighter;
+      border: none;
+  }
+  
+  #new-word-button {
+      width: fit-content;
+      align-items: center;
+      height: 60px;
+      margin: 10px 2px;
+      font-size: 1.6rem;
+      font-family: 'Press Start 2P', sans-serif;
+      font-weight: lighter;
+      border: none;
+  } 
+
+}
+
