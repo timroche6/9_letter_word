@@ -215,6 +215,7 @@ textarea:focus, input:focus{
         text-align: center;
         font-family: 'Silkscreen', sans-serif;
         font-weight: lighter;
+        color: #00303b;
         margin-top: 50px;
         margin-bottom: 10px;
         font-size: 3rem;
@@ -224,6 +225,7 @@ textarea:focus, input:focus{
         text-align: center;
         font-family: 'Silkscreen', sans-serif;
         font-weight: lighter;
+        color: #00303b;
         margin-top: 10px;
         margin-bottom: 50px;
         font-size: 5rem;
@@ -348,6 +350,7 @@ textarea:focus, input:focus{
         text-align: center;
         font-family: 'Silkscreen', sans-serif;
         font-weight: lighter;
+        color: #00303b;
         margin-top: 50px;
         margin-bottom: 10px;
         font-size: 3rem;
@@ -357,6 +360,7 @@ textarea:focus, input:focus{
         text-align: center;
         font-family: 'Silkscreen', sans-serif;
         font-weight: lighter;
+        color: #00303b;
         margin-top: 10px;
         margin-bottom: 50px;
         font-size: 5rem;
@@ -477,6 +481,7 @@ textarea:focus, input:focus{
         text-align: center;
         font-family: 'Silkscreen', sans-serif;
         font-weight: lighter;
+        color: #00303b;
         margin-top: 50px;
         margin-bottom: 10px;
         font-size: 3rem;
@@ -486,6 +491,7 @@ textarea:focus, input:focus{
         text-align: center;
         font-family: 'Silkscreen', sans-serif;
         font-weight: lighter;
+        color: #00303b;
         margin-top: 10px;
         margin-bottom: 50px;
         font-size: 5rem;
@@ -607,6 +613,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
       text-align: center;
       font-family: 'Silkscreen', sans-serif;
       font-weight: lighter;
+      color: #00303b;
       margin-top: 50px;
       margin-bottom: 10px;
       font-size: 3rem;
@@ -616,6 +623,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
       text-align: center;
       font-family: 'Silkscreen', sans-serif;
       font-weight: lighter;
+      color: #00303b;
       margin-top: 10px;
       margin-bottom: 50px;
       font-size: 5rem;
