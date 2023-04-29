@@ -104,7 +104,7 @@ h1 {
     font-size: 1rem;
     font-family: 'Press Start 2P', sans-serif;
     font-weight: lighter;
-    color: #042034;
+    color: #00303b;
 }
 
 input:focus {
@@ -112,7 +112,7 @@ input:focus {
 }
 
 ::placeholder {
-    color: #042034;
+    color: #00303b;
     opacity: 0.7;
 }
 
@@ -193,7 +193,7 @@ textarea:focus, input:focus{
     font-family: 'Press Start 2P', sans-serif;
     font-weight: lighter;
     margin-bottom: 1rem;
-    color: #094067; 
+    color: #00303b; 
 }
 
 #message {
@@ -215,7 +215,6 @@ textarea:focus, input:focus{
         text-align: center;
         font-family: 'Silkscreen', sans-serif;
         font-weight: lighter;
-        color: #094067;
         margin-top: 50px;
         margin-bottom: 10px;
         font-size: 3rem;
@@ -225,7 +224,6 @@ textarea:focus, input:focus{
         text-align: center;
         font-family: 'Silkscreen', sans-serif;
         font-weight: lighter;
-        color: #094067;
         margin-top: 10px;
         margin-bottom: 50px;
         font-size: 5rem;
@@ -294,7 +292,6 @@ textarea:focus, input:focus{
     }
 
     ::placeholder {
-        color: #042034;
         opacity: 0.7;
     }
     
@@ -351,7 +348,6 @@ textarea:focus, input:focus{
         text-align: center;
         font-family: 'Silkscreen', sans-serif;
         font-weight: lighter;
-        color: #094067;
         margin-top: 50px;
         margin-bottom: 10px;
         font-size: 3rem;
@@ -361,7 +357,6 @@ textarea:focus, input:focus{
         text-align: center;
         font-family: 'Silkscreen', sans-serif;
         font-weight: lighter;
-        color: #094067;
         margin-top: 10px;
         margin-bottom: 50px;
         font-size: 5rem;
@@ -482,7 +477,6 @@ textarea:focus, input:focus{
         text-align: center;
         font-family: 'Silkscreen', sans-serif;
         font-weight: lighter;
-        color: #094067;
         margin-top: 50px;
         margin-bottom: 10px;
         font-size: 3rem;
@@ -492,7 +486,6 @@ textarea:focus, input:focus{
         text-align: center;
         font-family: 'Silkscreen', sans-serif;
         font-weight: lighter;
-        color: #094067;
         margin-top: 10px;
         margin-bottom: 50px;
         font-size: 5rem;
